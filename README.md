@@ -68,6 +68,13 @@ Merged array in a sorted order where every element is greater than the previous 
 
 refer to the file merge_sort_array1.py file 
 
+TIME COMPLEXITIY ANALYSIS: 
+ the time complexity is O(n1+n2)
+POTENTIAL IMPROVEMENTS: 
+Using a Min-Heap 
+Two-Pointer Technique with K-way Merge
+Batch Processing
+
 Problem 2
 
 Given a sorted array array of size N, the task is to remove the duplicate elements from the array.
@@ -84,5 +91,6 @@ Output: array[] = {1, 2, 3, 4, 5}
 Note, you can't use something like the set container in C++.
 
 **ANS** 
-refer to the file remove_duplicates.py
+refer to the file remove_duplicates.py 
+
 
