@@ -35,7 +35,10 @@ OR as
 return fib(n-2) + fib(n-1)
 
 The reason is, I want everyone to have similar results.
+
+
 **ans:** 
+
 1) implementation refer to fibo.py file
 2) For explaination refer to fib_doc file
 
