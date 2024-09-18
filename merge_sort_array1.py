@@ -23,16 +23,16 @@ def merge_k_arrays(arrays):
     return result
 input1 = 3
 n=4
-arrays1 = [1, 3, 5, 7]
-arrays2 = [2, 4, 6, 8]
-arrays3 = [0, 9, 10, 11]
-first_set = [arrays1, arrays2, arrays3]
+arrays1 = [[1, 3, 5, 7],
+           [2, 4, 6, 8],
+           [0, 9, 10, 11]]
+
 
 input2 = 3
 n=3
-array1 = [1,3,7]
-array2 = [2,4,8]
-array3 = [9,10,11]
-second_set = [array1, array2, array3]
-print(merge_k_arrays(first_set))
-print(merge_k_arrays(second_set))
+array2 = [[1,3,7],
+          [2,4,8],
+         [9,10,11]]
+
+print(merge_k_arrays(arrays1))
+print(merge_k_arrays(array2))
